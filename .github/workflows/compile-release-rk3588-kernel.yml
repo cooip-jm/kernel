@@ -47,7 +47,7 @@ on:
       kernel_sign:
         description: "Set the kernel custom signature"
         required: false
-        default: "-rk3588-cooip"
+        default: ""
         type: choice
         options:
           - -rk3588-cooip
@@ -63,7 +63,7 @@ on:
           - false
 
 env:
-  TZ: America/New_York
+  TZ: Asia/Shanghai
 
 jobs:
   build:
