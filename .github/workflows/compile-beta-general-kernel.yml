@@ -82,9 +82,10 @@ on:
         options:
           - -beta
           - -Cooip
+          -
 
 env:
-  TZ: America/New_York
+  TZ: Asia/Shanghai
 
 jobs:
   build:
