@@ -47,11 +47,12 @@ on:
       kernel_sign:
         description: "Set the kernel custom signature"
         required: false
-        default: "-rk3588-ophub"
+        default: "-rk3588-cooip"
         type: choice
         options:
-          - -rk3588-ophub
-          - -yourname
+          - -rk3588-cooip
+          - -rk3588
+          - 
       kernel_config:
         description: "Set the path of kernel .config"
         required: false
